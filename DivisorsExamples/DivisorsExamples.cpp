@@ -9,7 +9,7 @@ int main()
     while (num > 1) {
         if (num % divisor == 0) {
             num /= divisor;
-            std::cout << divisor << " * ";
+            std::cout << divisor << ", ";
         }
         else {
             divisor++;
